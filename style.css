@@ -1,0 +1,122 @@
+ body
+ {   
+     background-color:rgb(42,42,42);
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+
+
+/* Navigation Bar */
+
+.navbar {
+    position: fixed;
+    height:10%;
+    background-color: rgb(11,11,11);
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.navbar ul li {
+    font-family: century;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(227,176,46);
+    padding: 8px 60px;
+    transition: all .8s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+.left {
+    position: relative;
+    margin-top: 8rem;
+    padding-left: 2rem;
+    width: 60%;
+    float: left;
+}
+
+.first{
+    position: relative;
+    
+}
+
+.first img {
+    width: 40px;
+    height: 40px;
+    transform: scale(1.4);
+    float: right;
+    position: absolute;
+    right: 90px;
+    top: 7px;
+
+}
+
+h1{
+    color: rgb(253,218,118);
+    font-size: 3rem;
+}
+
+h2{
+    margin-left: 12rem;
+    color:rgb(25,94,106);
+}
+
+.right{
+   display: inline-block;
+   width: 37%;
+
+}
+.right img{
+    margin-top: 5rem;
+    width: 100%;
+    height: 520px;
+    border-radius: 50%;
+}
+
+.firstname {
+    color: rgb(124,124,100);
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.lastname {
+    color: rgb(124,124,100);
+    font-size: 100px;
+    font-weight: 300;
+}
+.haha{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    margin-left: 190px;
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.haha img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: 10px;
+    top: -35px
+}
